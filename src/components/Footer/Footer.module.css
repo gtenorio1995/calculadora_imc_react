@@ -1,0 +1,30 @@
+.footer{
+    padding: 2rem 0;
+    background-color: #666;
+    color: var(--color-white);
+    height: 100px;
+    display: block;
+    align-items: center;
+}
+
+.container_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.author a{
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.author a::before{
+    content: url('../../assets/arrow-top_right.svg');
+    margin-left: 0.25rem;
+}
